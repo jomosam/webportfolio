@@ -1,0 +1,88 @@
+@import url(https://fonts.googleapis.com/css?family=Racing+Sans+One);
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+
+* {
+    box-sizing: border-box;
+  }
+  
+  html,
+  body,
+  #root {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  body{
+    
+    background-image: url('bg1.jpg');
+    background-size: cover;
+  }
+  
+  #root {
+    min-width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    color: black;
+  }
+  
+  .script-bf-box {
+    height: 30%;
+    background: black;
+    will-change: transform;
+    color: white;
+    top: 0%;
+    margin-left: 1%;
+    border-radius: 1%;
+    width: 10%;
+    text-align: center;
+  }
+  
+  .script-bf-box:hover {
+    background: hotpink;
+  }
+#main{
+      display: inherit;
+      width: 100%;
+      height: 100%;
+  }
+  .navContent{
+    display: flex;
+    width: 4%;
+    height: 3%;
+  }
+  .about{
+    margin: 10% 10%;
+    min-width:  70%;
+    height: 40%;
+  }
+  .MuiPaper-root{
+    background: #0e151959!important;
+    font-family: 'Anton', sans-serif;
+    color: #ffffff;
+  }
+  .textStyle {
+    color: #ffffff;
+  }
+  .navLink {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    margin: 1%;
+    cursor: pointer;
+  }
+  .navDiv {
+    text-align: right;
+    display: flex;
+  }
+  .navDiv div{
+    float: right;
+  }
