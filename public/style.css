@@ -19,11 +19,6 @@
     -ms-user-select: none;
     user-select: none;
   }
-  body{
-    
-    background-image: url('bg1.jpg');
-    background-size: cover;
-  }
   
   #root {
     min-width: 100%;
